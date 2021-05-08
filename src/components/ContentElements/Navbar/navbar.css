@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+.navContainer{
+    height: 50px;
+    -webkit-box-shadow:0px 5px 5px #6c757d;
+    -moz-box-shadow:0px 5px 5px #6c757d;
+    box-shadow:0px 5px 5px #6c757d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.navLinks{
+    padding: 0;
+    margin: 5px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navItem{
+    padding: 5px 15px 5px 15px;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}

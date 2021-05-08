@@ -6,6 +6,11 @@ module.exports = {
     path: path.resolve('dist'),
     filename: 'main.js'
   },
+  devServer: {
+    inline: true,
+    port: 8080,
+    historyApiFallback: true
+  },
  //define babel loader
   module: {
     rules: [
@@ -14,7 +19,15 @@ module.exports = {
       },
       { test: /\.css$/i,
         use: ["style-loader", "css-loader"],
-      }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ]
   }
 };

@@ -5,26 +5,25 @@ import './App.css';
 // import Homepage from './pages/homepage';
 // import Projects from './pages/projects';
 // import Error from './pages/error';
-// import Navbar from './components/ContentElements/Navbar/navbar';
-// import Footer from './components/ContentElements/Footer/footer';
+import Navbar from './components/ContentElements/Navbar/navbar';
+import Footer from './components/ContentElements/Footer/footer';
 // import About from './pages/about';
-// import Contact from './pages/contact';
+import Contact from './pages/contact';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
+      <Navbar />
     <main>
       <Switch>
-        <Route path="/" component={Homepage} exact />
-        <Route path="/projects" component={Projects} />
-        <Route path="/about" component={About} />
+        {/* <Route path="/" component={Homepage} exact /> */}
+        {/* <Route path="/projects" component={Projects} /> */}
+        {/* <Route path="/about" component={About} /> */}
         <Route path="/contact" component={Contact} />
-        <Route component={Error} />
+        {/* <Route component={Error} /> */}
       </Switch>
     </main>
-    <Footer /> */}
-    <h1>HELLOOOOOO</h1>
+    <Footer />
     </div>
   );
 }

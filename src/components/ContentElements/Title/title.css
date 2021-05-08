@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.titleContainer{
+    padding-bottom: 10px;
+    background-color: pink;
+    margin-top: 2%;
+}
+
+.pageTitle{
+    padding-top: 45px;
+    font-family: 'Playfair Display', serif;
+}

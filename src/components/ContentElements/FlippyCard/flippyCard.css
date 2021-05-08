@@ -1,0 +1,85 @@
+.flippy-container{
+    width: 200px;
+     height: 200px;
+}
+
+.flippy-front{
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:5px 5px 5px #6c757d;
+    -webkit-box-shadow:0px 5px 5px #6c757d;
+    -moz-box-shadow:0px 5px 5px #6c757d;
+}
+
+.flippy-back{
+    background-color: #fae0e4;
+    color: #ff7096;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flippyWrapper{
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.flippyRow{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px 100px;
+    padding-top: 25px;
+}
+
+.emailCard{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.phoneCard{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.linkedinCard{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.githubCard{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.twitterCard{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.flippyLogo{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.flippyBack{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

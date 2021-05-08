@@ -1,0 +1,25 @@
+.linkButton{
+    background-color: pink;
+    color: #ff7096;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  border: 2px solid #ff7096;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonLink:hover{
+    text-decoration-color: #ff7096;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+}
