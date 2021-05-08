@@ -1,0 +1,25 @@
+[
+    {
+        "title": "My Projects",
+
+        "project1":{
+            "title": "Tic Tac Toe (React)",
+            "desc": "A react app which allows the user to play tic-tac-toe (noughts & crosses) in the browser.",
+            "repo": "https://github.com/rasveerb/react-tic-tac-toe",
+            "demo": "test link"
+        },
+
+        "project2":{
+            "title": "Blog Server (Node)",
+            "desc": "A node express app which submits blog posts.",
+            "repo": "https://github.com/rasveerb/node-blog",
+            "demo": "test link"
+        },
+
+        "project3":{
+            "title": "Java Exercises",
+            "desc": "A variety of Java coding exercises. (Each exercises is hosted on a new branch).",
+            "repo": "https://github.com/rasveerb/java-exercises"
+        }
+    }
+]
