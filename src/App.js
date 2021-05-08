@@ -7,7 +7,7 @@ import Projects from './pages/projects';
 import Error from './pages/error';
 import Navbar from './components/ContentElements/Navbar/navbar';
 import Footer from './components/ContentElements/Footer/footer';
-// import About from './pages/about';
+import About from './pages/about';
 import Contact from './pages/contact';
 
 function App() {
@@ -18,10 +18,10 @@ function App() {
       <Switch>
         <Route path="/" component={Homepage} exact />
         <Route path="/projects" component={Projects} />
-        {/* <Route path="/about" component={About} /> */}
+        <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route component={Error} /> 
-        {/* need to work out how to activate error page for all other routes */}
+        {/* TODO need to work out how to activate error page for all other routes */}
       </Switch>
     </main>
     <Footer />

@@ -90,7 +90,7 @@ function Contact() {
                 <div className="twitterCard">
                     <FlippyCard logo={twitterLogo} button={twitterButton} buttonLink={twitterLink}/>
                 </div>
-                {/* add a card for dev.to blog */}
+                {/* TODO add a card for dev.to blog and insta*/}
             </div>
             </div>
         </div>
