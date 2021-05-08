@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+.text{
+    font-family: 'Playfair Display', serif; 
+    padding: 10px;
+}
+
+/* find a universal easy to read font  */
