@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.headerContainer{
+    padding-bottom: 10px;
+    margin: 3%;
+}
+
+.profileTitle{
+    margin: 0 0 5px 0;
+    font-size: 85px;
+}
+
+.profileSubitle{
+    margin: 0px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+}
