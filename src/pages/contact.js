@@ -67,6 +67,18 @@ function Contact() {
         return obj.details.twitter.twitterLink
     })
 
+    const instaLogo = data.map((obj) => {
+        return obj.details.instagram.logo
+    })
+
+    const instaButton = data.map((obj) => {
+        return obj.details.instagram.button
+    })
+
+    const instaLink = data.map((obj) => {
+        return obj.details.instagram.instaLink
+    })
+
     return (
         <div>
             <Title title={title} />
@@ -90,7 +102,10 @@ function Contact() {
                 <div className="twitterCard">
                     <FlippyCard logo={twitterLogo} button={twitterButton} buttonLink={twitterLink}/>
                 </div>
-                {/* TODO add a card for dev.to blog and insta*/}
+
+                <div className="instaCard">
+                    <FlippyCard logo={instaLogo} button={instaButton} buttonLink={instaLink}/>
+                </div>
             </div>
             </div>
         </div>

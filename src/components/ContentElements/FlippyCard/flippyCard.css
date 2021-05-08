@@ -72,6 +72,13 @@
     grid-row-end: 6;
 }
 
+.instaCard{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
 .flippyLogo{
     height: 150px;
     width: 150px;
